@@ -1,0 +1,27 @@
+	public class Position
+	{
+		private int x;
+		private int y;
+
+		public Position()
+		{
+			x = 0;
+			y = 0;
+		}
+		public void setx(int tempVal)
+		{
+			x = tempVal;
+		}
+		public void sety(int tempVal)
+		{
+			y = tempVal;
+		}
+		public int getx()
+		{
+			return x;
+		}
+		public int gety()
+		{
+			return y;
+		}
+	}
